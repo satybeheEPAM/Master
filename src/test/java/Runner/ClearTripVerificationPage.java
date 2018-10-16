@@ -20,7 +20,7 @@ public class ClearTripVerificationPage extends BasePage{
 	}
 	
 	public void user_has_landed_on_verification_page_of_application() throws IOException {
-		log.info("this is verification Page");
+		log.info("this is verification Page for Cleartrip");
 		WebElement homePage = driver.findElement(By.xpath(getXpath("homePage", "ClearTripLoginStep")));
 		verifyData(homePage, getTestData("TitleOfHomePage"));
 
